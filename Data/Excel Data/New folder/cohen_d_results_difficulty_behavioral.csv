@@ -1,0 +1,16 @@
+Condition 1,Condition 2,Cohen's d,P-value
+Only Visual,OnlyAudio,4.872512628,2.84E-25
+Only Visual,Contra Audio,0.672021505,0.000408745
+Only Visual,Contra Visual,2.893138981,4.33E-18
+Only Visual,All,-0.06401844,0.711251171
+Only Visual,Invisible,3.154234909,3.04E-19
+OnlyAudio,Contra Audio,-3.763636009,1.18E-21
+OnlyAudio,Contra Visual,-1.031938349,8.18E-07
+OnlyAudio,All,-5.5,5.34E-27
+OnlyAudio,Invisible,-0.637584804,0.000721337
+Contra Audio,Contra Visual,2.108747919,4.57E-14
+Contra Audio,All,-0.664211164,0.000465303
+Contra Audio,Invisible,2.170443252,2.03E-14
+Contra Visual,All,-3.200076103,1.94E-19
+Contra Visual,Invisible,0.198307445,0.255610357
+All,Invisible,3.429925027,2.23E-20
