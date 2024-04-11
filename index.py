@@ -6,7 +6,8 @@ from app import app
 # from app import server
 
 # Connect to your app pages
-from apps import app1, app2, app3
+#from apps import app1, app2, app3
+from apps import app2, app3
 
 # styling the sidebar
 SIDEBAR_STYLE = {
@@ -34,7 +35,7 @@ sidebar = html.Div(
         ),
         dbc.Nav(
             [
-                dbc.NavLink("Spatial Visualization", href="/spatial_visualization", active="exact"),
+                #dbc.NavLink("Spatial Visualization", href="/spatial_visualization", active="exact"),
                 dbc.NavLink("Correlation Analysis", href="/correlation_analysis", active="exact"),
                 dbc.NavLink("Learning Effect Analysis", href="/learning_effect", active="exact"),
 
@@ -55,14 +56,23 @@ app.layout = html.Div([
 ])
 
 
+
+# def render_page_content(pathname):
+#     if pathname == "/spatial_visualization":
+#         return app1.layout
+#     elif pathname == "/learning_effect":
+#         return app3.layout
+#     elif pathname == "/correlation_analysis":
+#         return app2.layout
+#     # If the user tries to reach a different page, return a 404 message
+#     return
+
+
 @app.callback(
     Output("page-content", "children"),
-    [Input("url", "pathname")]
-)
+    [Input("url", "pathname")])
 def render_page_content(pathname):
-    if pathname == "/spatial_visualization":
-        return app1.layout
-    elif pathname == "/learning_effect":
+    if pathname == "/learning_effect":
         return app3.layout
     elif pathname == "/correlation_analysis":
         return app2.layout
