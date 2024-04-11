@@ -234,7 +234,7 @@ def update_graph(selected_maze_type, selected_condition_string, selected_partici
     # Add frames for animation based on the filtered DataFrame
     frames = [
         go.Frame(data=[go.Scatter(x=[filtered_df.iloc[i]['z']], y=[-filtered_df.iloc[i]['x']], mode='markers+lines')])
-        for i in range(len(filtered_df))]
+        for i in range(0, len(filtered_df), 2)]
     fig.frames = frames
 
     # Update the initial frame
