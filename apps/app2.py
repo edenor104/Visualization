@@ -62,7 +62,7 @@ layout = dbc.Container(
     [
         dbc.Row(
             [
-                dbc.Col(html.H3("Learning Effect Analysis"), className="d-grid justify-content-md-center"),
+                dbc.Col(html.H3("Correlation Analysis"), className="d-grid justify-content-md-center"),
             ]),
         html.Hr(),
         dbc.Row([
