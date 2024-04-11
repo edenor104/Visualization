@@ -8,4 +8,4 @@ import dash_bootstrap_components as dbc
 #                 )
 
 app = Dash(external_stylesheets=[dbc.themes.CYBORG])
-# server = app.server
+server = app.server
