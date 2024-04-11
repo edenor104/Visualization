@@ -33,7 +33,7 @@ def plot_facets(data, parameter_string):
      'Partial Audio Clash':'contra_audio', 'Full Visual Clash':'const_contra_visual', 'Full Audio Clash':'const_contra_audio2'}
     fig = make_subplots(rows=2, cols=4, shared_xaxes=True, shared_yaxes=True,
                         subplot_titles=[f"Condition: {get_key_from_value(condition_conversion, condition)}" for condition in conditions],
-                        x_title='Time / Order of Performance [n]', y_title=parameter_string)
+                        x_title='Layout Order [n]', y_title=parameter_string)
 
     # Iterate over each subplot and update layout properties
     for i in range(1, 9):  # There are 8 subplots in total (2 rows * 4 cols)
