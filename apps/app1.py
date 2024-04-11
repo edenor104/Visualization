@@ -8,7 +8,7 @@ from app import app
 import os
 
 # Load your DataFrame
-combined_data_path = os.getcwd() + r"\Data\Raw Data\Data"
+combined_data_path = os.path.join(os.getcwd(), "Data", "Raw Data", "Data")
 
 # Loop through each participant folder
 participant_folders = os.listdir(combined_data_path)

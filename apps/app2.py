@@ -6,7 +6,7 @@ import dash_bootstrap_components as dbc
 from app import app
 import os
 
-correlation_data_path = os.getcwd() + r"\Data\Excel Data\Questionnaire Analysis\correlation_analysis.xlsx"
+correlation_data_path = os.path.join(os.getcwd(), "Data", "Excel Data", "Questionnaire Analysis", "correlation_analysis.xlsx")
 
 # Load your DataFrame
 df = pd.read_excel(correlation_data_path)

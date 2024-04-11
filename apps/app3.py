@@ -8,7 +8,7 @@ import dash_bootstrap_components as dbc
 from app import app
 import os
 
-folder_path = os.getcwd() + r"\Data\Raw Data\Data"
+folder_path = os.path.join(os.getcwd(), "Data", "Raw Data", "Data")
 
 # Get list of participant folders
 participant_folders = sorted(os.listdir(folder_path))
