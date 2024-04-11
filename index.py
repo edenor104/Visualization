@@ -3,7 +3,7 @@ import dash_bootstrap_components as dbc
 from dash import Dash, html, dcc, Input, Output, callback, no_update, ctx
 # Connect to main app.py file
 from app import app
-# from app import server
+from app import server
 
 # Connect to your app pages
 #from apps import app1, app2, app3
