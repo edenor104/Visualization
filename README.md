@@ -9,4 +9,4 @@ All the interactive visualizations could be found in the following link: https:/
 
 The conference paper and the code that processed the data and created the interactive graphs could be found here : https://github.com/edenor104/Visualization
 
-To better understand the paradigm, data and results please check the OSF website for more details. There you can also find the notebook used to create the non-interactive graphs under “VisualizationGraphs.ipynb”. If you wish to experience the paradigm you could do so by running the exe. file in the repository under the experiments folder. (https://osf.io/jbwd2/)
+To better understand the paradigm, data and results please check the OSF website for more details. There you can also find the notebook used to create the non-interactive graphs under “VisualizationGraphs.ipynb”. If you wish to experience the paradigm you could do so by running the exe. file in the repository under the experiment folder. (https://osf.io/jbwd2/)
